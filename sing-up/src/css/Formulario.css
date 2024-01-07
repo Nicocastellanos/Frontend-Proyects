@@ -1,0 +1,71 @@
+body{
+    background-color: hsl(234, 29%, 20%);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.form-content{
+    padding: 20px 20px 20px 36px;
+    display: flex;
+    flex-direction: column;
+
+}
+.form-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 200px 540px;
+    background-color: white;
+    width: 800px;
+    height: 600px;
+    border-radius: 1rem;
+}
+.imagen{
+    width: 370px;
+    padding: 26px 10px 0 2px;
+}
+.list{
+    display: flex;
+}
+.icon-list{
+    padding-right: 18px;
+}
+.title{
+    font-weight: 700;
+    font-size: 50px;
+}
+.text-1{
+    font-size: 15.4px;
+    font-weight: 400;
+}
+.alert{
+    color: red;
+    font-size: 14px;
+    padding-left: 100px;
+}
+.label{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.input{
+    width: 310px;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 0.4rem;
+    border-color: rgb(204, 204, 204);
+}
+.button-send{
+    width: 338px;
+    padding: 12px;
+    background-color: hsl(234, 29%, 20%);
+    border-radius: 0.4rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.email{
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 30px;
+}

@@ -1,0 +1,33 @@
+.send{
+    background-color: white;
+    width: 400px;
+    height: 480px;
+    padding: 30px;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    display: grid;
+    place-content: center;
+    margin: 200px;
+}
+.icon{
+    width: 60px;
+    padding: 28px 0 0 4px;
+}
+.title{
+    font-weight: bold;
+
+}
+.text{
+    color: hsl(231, 7%, 60%);
+    padding-bottom: 28px;
+}
+.button{
+    background-color:  hsl(234, 29%, 20%);
+    padding: 18px;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
