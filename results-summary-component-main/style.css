@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color:  hsl(240, 88%, 94%);
+}
+.score{
+    display: grid;
+    place-content: center;
+    margin: 200px 650px 0;
+    width: 700px;
+    height: 500px;
+    border-radius: 1rem;
+    background-color: white;
+}
+.result{
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsl(241, 81%, 54%)) ;
+    padding: 30px;
+    text-align: center;
+    border-radius: 1rem;
+    width: 300px;
+    height: 440px;
+}
+.tables{
+    display: flex;
+}
+.number{
+    background: linear-gradient( rgb(62, 27, 143), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    padding: 12px;
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number-1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 45px;
+    font-weight: 800;
+}
+.number-2{
+    font-size: 12px;
+    color: hsl(241, 100%, 89%);
+}
+.title{
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+    padding-bottom: 28px;
+}
+.title-2{
+    color: white;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+.p-1{
+    color: hsl(241, 100%, 89%);
+}
+.skills-table{
+    padding: 30px;
+    text-align: start;
+}
+.box-skill{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(0, 100%, 96%, 0.507);
+    border-radius: 0.5rem;
+    margin-bottom: 16px;
+    width: 300px;
+}
+.box-skill-2{
+        display: flex;
+        justify-content: space-between;
+        background-color: hsla(39, 100%, 96%, 0.493);
+        border-radius: 0.5rem;
+        margin-bottom: 16px;
+        width: 300px;
+}
+.box-skill-3{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(166, 100%, 95%, 0.527);
+    border-radius: 0.5rem;
+    margin-bottom: 16px;
+    width: 300px;
+}
+.box-skill-4{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(233, 100%, 95%, 0.541);
+    border-radius: 0.5rem;
+    margin-bottom: 16px;
+    width: 300px;
+}
+.grade, .grade-2,.memory, .reaction, .visual, .verbal{
+    padding:  0 8px  0 8px;
+}
+.reaction{
+    color: hsl(0, 100%, 67%);
+}
+.memory{
+    color:  hsl(39, 100%, 56%);
+}
+.verbal{
+    color: hsl(166, 100%, 37%);
+}
+.visual{
+    color: hsl(234, 85%, 45%);
+}
+.grade{
+    color: black;
+    font-weight: 800;
+}
+.grade-2{
+    color:hsl(240, 32%, 72%);
+}
+.memory, .reaction, .visual, .verbal{
+    text-align: center;
+    display: flex;
+}
+.title-3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.button{
+    width: 300px;
+    padding: 14px;
+    border: none;
+    border-radius: 4rem;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    cursor: pointer;
+}
