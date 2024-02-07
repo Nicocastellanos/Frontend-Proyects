@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(241, 241, 241);
+}
+.principal-box{
+    display: flex;
+    justify-content:space-between;
+    align-items:center ;
+}
+.cards{
+    margin-top: 150px;
+}
+.card-1{
+    background: linear-gradient(90deg, rgba(37,24,98,1) 24%, rgba(143,43,184,1) 44%, rgba(91,20,218,1) 58%, rgba(37,24,98,1) 100%);    padding: 28px;
+    width: 400px;
+    border-radius: 1rem;
+    margin-left: 250px;
+}
+.card-2{
+    position: relative;
+    margin: 100px 0 0 350px;
+}
+.cvc-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+    margin-left: 300px;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+.text-1{
+    display: grid;
+    place-content: center;
+    padding-top: 68px;
+}
+.name-date{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.number{
+    font-size: 34px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    padding-top: 30px;
+}
+.name, .date{
+   padding: 38px 0 2px 0 ;
+   font-size: 20px;
+   font-family: 'Space Grotesk', sans-serif;
+   color: white;
+}
+.cvc{
+    background-color: rgb(177, 177, 177);
+    padding: 14px;
+    margin-top: 40px;
+    width: 350px;
+    text-align: end;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+}
+.background{
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(29,22,48,1) 36%, rgba(95,24,205,1) 100%);
+    height: 1040px;
+    width: 500px;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 400px;
+}
+.label{
+    color: hsl(278, 68%, 11%);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 20px;
+}
+.input-date{
+    display: flex;
+}
+.input{
+    padding: 14px;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top: 12px;
+}
+.input:hover{
+    border: 2px solid hsl(278, 68%, 11%);
+}
+.input-date:hover{
+    border: 2px solid hsl(278, 68%, 11%);
+}
+.input-cvc:hover{
+    border: 2px solid hsl(278, 68%, 11%);
+}
+.label-date-cvc{
+    display: flex;
+    width: 200px;
+}
+.label-date{
+    color: hsl(278, 68%, 11%);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    display: grid;
+    margin: 20px;
+}
+.label-cvc{
+    color: hsl(278, 68%, 11%);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    display: grid;
+    margin: 20px 0 0 0;
+}
+.input-date{
+    padding: 14px;
+    width: 50px;
+    border-radius: 0.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    margin: 14px 14px 14px 0;
+}
+.input-cvc{
+    width: 260px;
+    padding: 14px;
+    border-radius: 0.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    margin: 14px 0 14px 0;
+}
+.date-box{
+    display: flex;
+}
+.cvc-box{
+    width: 500px;
+}
+.date-error{
+    margin: -30px 0 20px 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    color: hsl(0, 100%, 66%);
+}
+.cvc-error{
+    margin: -10px 0 0 15px;
+    color: hsl(0, 100%, 66%);
+}
+.alert{
+    color: hsl(0, 100%, 66%);
+}
+.button{
+    width: 500px;
+    padding: 14px;
+    background-color:  hsl(278, 68%, 11%);
+    border-radius: 0.5rem;
+    margin-left: 20px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
